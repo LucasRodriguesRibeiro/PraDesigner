@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #000000e1;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo{
+   
+    float: left;
+    background: url(../img/icon.png) center center/56px no-repeat;
+    font-size: 0;
+}
+
+
+
+/* banner */
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+}
+
+.banner h2{
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.banner h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 100;
+}
+
+.banner img{
+    margin-top: 40px;
+    width: 80vh;
+    height: 80vh;
+}
+
+ .botao{
+     margin-top: 40px;
+    background-color: #e0c409 ;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    border-radius: 27px;
+    width: 60vw;
+    height: 11vw;
+    cursor: pointer;
+    
+}
+
+
+.servicos{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicos .botao{
+    margin-bottom: 40px;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 8px;
+    margin-bottom: 3%;
+}
+
+.servico img{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .servico{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .servico img {
+        margin-top: 35px;
+    }
+}
